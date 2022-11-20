@@ -6,78 +6,81 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[a4paper,landscape]{letter}
 \usepackage{layout}
+\usepackage{pgffor}
 \usepackage[landscape]{geometry}
 \addtolength{\oddsidemargin}{-70pt}
 \addtolength{\textwidth}{150pt}
 \addtolength{\textheight}{70pt}
-\pagestyle{empty}
-\begin{document}
+\pagestyle{empty} % supress page numbers
 
-\textbf{Genesis} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36} \framebox{37} \framebox{38} \framebox{39} \framebox{40} \framebox{41} \framebox{42} \framebox{43} \framebox{44} \framebox{45} \framebox{46} \framebox{47} \framebox{48} \framebox{49} \framebox{50}
-\textbf{Exodus} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36} \framebox{37} \framebox{38} \framebox{39} \framebox{40}
-\textbf{Leviticus} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27}
-\textbf{Numbers} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36}
-\textbf{Deuteronomy} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34}
-\textbf{Joshua} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24}
-\textbf{Judges} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21}
-\textbf{Ruth} \framebox{1} \framebox{2} \framebox{3} \framebox{4}
-\textbf{1 Samuel} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31}
-\textbf{2 Samuel} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \linebreak
-\textbf{1 Kings} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22}
-\textbf{2 Kings} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25}
-\textbf{1 Chronicles} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29}
-\textbf{2 Chronicles} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36}
-\textbf{Ezra} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10}
-\textbf{Nehemiah} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13}
-\textbf{Esther} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \linebreak
-\textbf{Job} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36} \framebox{37} \framebox{38} \framebox{39} \framebox{40} \framebox{41} \framebox{42}
-\textbf{Psalms} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36} \framebox{37} \framebox{38} \framebox{39} \framebox{40} \framebox{41} \framebox{42} \framebox{43} \framebox{44} \framebox{45} \framebox{46} \framebox{47} \framebox{48} \framebox{49} \framebox{50} \framebox{51} \framebox{52} \framebox{53} \framebox{54} \framebox{55} \framebox{56} \framebox{57} \framebox{58} \framebox{59} \framebox{60} \framebox{61} \framebox{62} \framebox{63} \framebox{64} \framebox{65} \framebox{66} \framebox{67} \framebox{68} \framebox{69} \framebox{70} \framebox{71} \framebox{72} \framebox{73} \framebox{74} \framebox{75} \framebox{76} \framebox{77} \framebox{78} \framebox{79} \framebox{80} \framebox{81} \framebox{82} \framebox{83} \framebox{84} \framebox{85} \framebox{86} \framebox{87} \framebox{88} \framebox{89} \framebox{90} \framebox{91} \framebox{92} \framebox{93} \framebox{94} \framebox{95} \framebox{96} \framebox{97} \framebox{98} \framebox{99} \framebox{100} \framebox{101} \framebox{102} \framebox{103} \framebox{104} \framebox{105} \framebox{106} \framebox{107} \framebox{108} \framebox{109} \framebox{110} \framebox{111} \framebox{112} \framebox{113} \framebox{114} \framebox{115} \framebox{116} \framebox{117} \framebox{118} \framebox{119} \framebox{120} \framebox{121} \framebox{122} \framebox{123} \framebox{124} \framebox{125} \framebox{126} \framebox{127} \framebox{128} \framebox{129} \framebox{130} \framebox{131} \framebox{132} \framebox{133} \framebox{134} \framebox{135} \framebox{136} \framebox{137} \framebox{138} \framebox{139} \framebox{140} \framebox{141} \framebox{142} \framebox{143} \framebox{144} \framebox{145} \framebox{146} \framebox{147} \framebox{148} \framebox{149} \framebox{150}
-\textbf{Proverbs} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31}
-\textbf{Ecclesiastes} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12}
-\textbf{Song of Solomon} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \linebreak
-\textbf{Isaiah} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36} \framebox{37} \framebox{38} \framebox{39} \framebox{40} \framebox{41} \framebox{42} \framebox{43} \framebox{44} \framebox{45} \framebox{46} \framebox{47} \framebox{48} \framebox{49} \framebox{50} \framebox{51} \framebox{52} \framebox{53} \framebox{54} \framebox{55} \framebox{56} \framebox{57} \framebox{58} \framebox{59} \framebox{60} \framebox{61} \framebox{62} \framebox{63} \framebox{64} \framebox{65} \framebox{66}
-\textbf{Jeremiah} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36} \framebox{37} \framebox{38} \framebox{39} \framebox{40} \framebox{41} \framebox{42} \framebox{43} \framebox{44} \framebox{45} \framebox{46} \framebox{47} \framebox{48} \framebox{49} \framebox{50} \framebox{51} \framebox{52}
-\textbf{Lamentations} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5}
-\textbf{Ezekiel} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28} \framebox{29} \framebox{30} \framebox{31} \framebox{32} \framebox{33} \framebox{34} \framebox{35} \framebox{36} \framebox{37} \framebox{38} \framebox{39} \framebox{40} \framebox{41} \framebox{42} \framebox{43} \framebox{44} \framebox{45} \framebox{46} \framebox{47} \framebox{48}
-\textbf{Daniel} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \linebreak
-\textbf{Hosea} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14}
-\textbf{Joel} \framebox{1} \framebox{2} \framebox{3}
-\textbf{Amos} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9}
-\textbf{Obadiah} \framebox{1}
-\textbf{Jonah} \framebox{1} \framebox{2} \framebox{3} \framebox{4}
-\textbf{Micah} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7}
-\textbf{Nahum} \framebox{1} \framebox{2} \framebox{3}
-\textbf{Habakkuk} \framebox{1} \framebox{2} \framebox{3}
-\textbf{Zephaniah} \framebox{1} \framebox{2} \framebox{3}
-\textbf{Haggai} \framebox{1} \framebox{2}
-\textbf{Zechariah} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14}
-\textbf{Malachi} \framebox{1} \framebox{2} \framebox{3} \framebox{4}
+\newcommand{\book}[2]{\mbox{\textbf{#1}}\foreach \n in {1,...,#2}{ \framebox{\n}}}
+
+\begin{document}
+\book{Genesis}{50}
+\book{Exodus}{40}
+\book{Leviticus}{27}
+\book{Numbers}{36}
+\book{Deuteronomy}{34}
+\book{Joshua}{24}
+\book{Judges}{21}
+\book{Ruth}{4}
+\book{1 Samuel}{31}
+\book{2 Samuel}{24}\linebreak
+\book{1 Kings}{22}
+\book{2 Kings}{25}
+\book{1 Chronicles}{29}
+\book{2 Chronicles}{36}
+\book{Ezra}{10}
+\book{Nehemiah}{13}
+\book{Esther}{10}\linebreak
+\book{Job}{42}
+\book{Psalms}{150}
+\book{Proverbs}{31}
+\book{Ecclesiastes}{12}
+\book{Song of Solomon}{8}\linebreak
+\book{Isaiah}{66}
+\book{Jeremiah}{52}
+\book{Lamentations}{5}
+\book{Ezekiel}{48}
+\book{Daniel}{12}\linebreak
+\book{Hosea}{14}
+\book{Joel}{3}
+\book{Amos}{9}
+\book{Obadiah}{1}
+\book{Jonah}{4}
+\book{Micah}{7}
+\book{Nahum}{3}
+\book{Habakkuk}{3}
+\book{Zephaniah}{3}
+\book{Haggai}{2}
+\book{Zechariah}{14}
+\book{Malachi}{4}
 \linebreak
-\textbf{Matthew} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28}
-\textbf{Mark} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16}
-\textbf{Luke} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24}
-\textbf{John} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21}
-\textbf{Acts} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22} \framebox{23} \framebox{24} \framebox{25} \framebox{26} \framebox{27} \framebox{28}
-\textbf{Romans} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16}
-\textbf{1 Corinthians} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16}
-\textbf{2 Corinthians} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13}
-\textbf{Galatians} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6}
-\textbf{Ephesians} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6}
-\textbf{Philippians} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \linebreak
-\textbf{Colossians} \framebox{1} \framebox{2} \framebox{3} \framebox{4}
-\textbf{1 Thessalonians} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5}
-\textbf{2 Thessalonians} \framebox{1} \framebox{2} \framebox{3}
-\textbf{1 Timothy} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6}
-\textbf{2 Timothy} \framebox{1} \framebox{2} \framebox{3} \framebox{4}
-\textbf{Titus} \framebox{1} \framebox{2} \framebox{3}
-\textbf{Philemon} \framebox{1}
-\textbf{Hebrews} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13}
-\textbf{James} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5}
-\textbf{1 Peter} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5}
-\textbf{2 Peter} \framebox{1} \framebox{2} \framebox{3}
-\textbf{1 John} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5}
-\textbf{2 John} \framebox{1}
-\textbf{3 John} \framebox{1}
-\textbf{Jude} \framebox{1}
-\textbf{Revelation} \framebox{1} \framebox{2} \framebox{3} \framebox{4} \framebox{5} \framebox{6} \framebox{7} \framebox{8} \framebox{9} \framebox{10} \framebox{11} \framebox{12} \framebox{13} \framebox{14} \framebox{15} \framebox{16} \framebox{17} \framebox{18} \framebox{19} \framebox{20} \framebox{21} \framebox{22}
+\book{Matthew}{28}
+\book{Mark}{16}
+\book{Luke}{24}
+\book{John}{21}
+\book{Acts}{28}
+\book{Romans}{16}
+\book{1 Corinthians}{16}
+\book{2 Corinthians}{13}
+\book{Galatians}{6}
+\book{Ephesians}{6}
+\book{Philippians}{4}\linebreak
+\book{Colossians}{4}
+\book{1 Thessalonians}{5}
+\book{2 Thessalonians}{3}
+\book{1 Timothy}{6}
+\book{2 Timothy}{4}
+\book{Titus}{3}
+\book{Philemon}{1}
+\book{Hebrews}{13}
+\book{James}{5}
+\book{1 Peter}{5}
+\book{2 Peter}{3}
+\book{1 John}{5}
+\book{2 John}{1}
+\book{3 John}{1}
+\book{Jude}{1}
+\book{Revelation}{22}
 \end{document}
